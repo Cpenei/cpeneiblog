@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '优化情商可以更近理论值嘛/kel',
   author: {
     name: '层析析',
-    avatar: '/avatar.png',
+    avatar: '/cpeneiblog/avatar.png',
   },
   description: '层析析的个人博客。',
   social: [
