@@ -1,5 +1,5 @@
 ---
-title: BolgRestart-Valaxy
+title: BlogRestart-Valaxy
 date: 2026-08-17
 ---
 
