@@ -11,7 +11,7 @@ links:
     avatar: https://blog.kisechan.space/favicon.ico
     name: Kisechan
     blog: Kisechan's Blog
-    desc: Kisechan 的博客!
+    desc: Kisechan 的博客！
 random: true
 ---
 
