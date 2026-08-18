@@ -1,0 +1,50 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Cp*enei_lab",
+    "home_page_url": "https://cpenei.github.io/cpeneiblog/",
+    "feed_url": "https://cpenei.github.io/cpeneiblog/feed.json",
+    "description": "层析析的个人博客。",
+    "icon": "https://cpenei.github.io/cpeneiblog/cpeneiblog/avatar.png",
+    "author": {
+        "name": "层析析",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st",
+            "content_html": "<p>第一学期的学分和日程↓<br>\n<img src=\"https://cpenei.github.io/cpeneiblog/posts/img/IMG_20260818_133118.jpg\" alt=\"\"></p>\n<h2>学业</h2>\n<h6>主要目标:转专业(记得问学长学姐的建议方向!)</h6>\n<h3>通识课专业课</h3>\n<p>给我卷到前五</p>\n<br/><p>访问 <a href=\"https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st\" target=\"_blank\">https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st</a> 阅读全文。</p>",
+            "url": "https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st",
+            "title": "阶段规划 zero",
+            "date_modified": "2026-08-18T00:00:00.000Z",
+            "date_published": "2026-08-18T00:00:00.000Z",
+            "author": {
+                "name": "层析析",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy",
+            "content_html": "<p>之前的博客用的hugo架构，因为嫌弃渲染麻烦弃置很久了hhh</p>\n<p>昨天在WMU群里受到学姐启发，想试试valaxy（因为看上去比hugo厉害多了）,于是今天折腾了一个下午搞好了新的博客，这篇文章大概纪</p>\n<br/><p>访问 <a href=\"https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy\" target=\"_blank\">https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy</a> 阅读全文。</p>",
+            "url": "https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy",
+            "title": "BlogRestart-Valaxy",
+            "date_modified": "2026-08-17T00:00:00.000Z",
+            "date_published": "2026-08-17T00:00:00.000Z",
+            "author": {
+                "name": "层析析",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching",
+            "content_html": "<h3>直接复制粘贴的，markdown格式没改完，,</h3>\n<p>关于LearnGitBranching网站的一些个人解法文章列表</p>\n<p>2023-07-01 16:05:04<br>\n网址： <a href=\"https://l\">https://l</a></p>\n<br/><p>访问 <a href=\"https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching\" target=\"_blank\">https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching</a> 阅读全文。</p>",
+            "url": "https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching",
+            "title": "关于LearnGitBranching网站学习的个人题解",
+            "date_modified": "2025-02-02T06:08:54.000Z",
+            "date_published": "2025-02-02T06:08:54.000Z",
+            "author": {
+                "name": "层析析",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

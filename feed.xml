@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cp*enei_lab</title>
+        <link>https://cpenei.github.io/cpeneiblog/</link>
+        <description>层析析的个人博客。</description>
+        <lastBuildDate>Tue, 18 Aug 2026 07:28:19 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Cp*enei_lab</title>
+            <url>https://cpenei.github.io/cpeneiblog/cpeneiblog/avatar.png</url>
+            <link>https://cpenei.github.io/cpeneiblog/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © 层析析</copyright>
+        <atom:link href="https://cpenei.github.io/cpeneiblog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[阶段规划 zero]]></title>
+            <link>https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st</link>
+            <guid isPermaLink="false">https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>第一学期的学分和日程↓<br>
+<img src="https://cpenei.github.io/cpeneiblog/posts/img/IMG_20260818_133118.jpg" alt=""></p>
+<h2>学业</h2>
+<h6>主要目标:转专业(记得问学长学姐的建议方向!)</h6>
+<h3>通识课专业课</h3>
+<p>给我卷到前五</p>
+<br/><p>访问 <a href="https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st" target="_blank">https://cpenei.github.io/cpeneiblog/posts/阶段规划 1st</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (层析析)</author>
+        </item>
+        <item>
+            <title><![CDATA[BlogRestart-Valaxy]]></title>
+            <link>https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy</link>
+            <guid isPermaLink="false">https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy</guid>
+            <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>之前的博客用的hugo架构，因为嫌弃渲染麻烦弃置很久了hhh</p>
+<p>昨天在WMU群里受到学姐启发，想试试valaxy（因为看上去比hugo厉害多了）,于是今天折腾了一个下午搞好了新的博客，这篇文章大概纪</p>
+<br/><p>访问 <a href="https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy" target="_blank">https://cpenei.github.io/cpeneiblog/posts/BlogRestart-Valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (层析析)</author>
+        </item>
+        <item>
+            <title><![CDATA[关于LearnGitBranching网站学习的个人题解]]></title>
+            <link>https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching</link>
+            <guid isPermaLink="false">https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching</guid>
+            <pubDate>Sun, 02 Feb 2025 06:08:54 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>直接复制粘贴的，markdown格式没改完，,</h3>
+<p>关于LearnGitBranching网站的一些个人解法文章列表</p>
+<p>2023-07-01 16:05:04<br>
+网址： <a href="https://l">https://l</a></p>
+<br/><p>访问 <a href="https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching" target="_blank">https://cpenei.github.io/cpeneiblog/posts/LearnGitBranching</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (层析析)</author>
+        </item>
+    </channel>
+</rss>

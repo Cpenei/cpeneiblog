@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cpenei.github.io/cpeneiblog/sitemap.xml
