@@ -20,7 +20,7 @@ export default defineSiteConfig({
     },
     {
       name: 'Bilibili',
-      link: 'https://www.bilibili.com/',
+      link: 'https://space.bilibili.com/355829764',
       icon: 'i-ri-bilibili-line',
       color: '#666084',
     },
@@ -38,7 +38,7 @@ export default defineSiteConfig({
     },
     {
       name: 'zhihu',
-      link: 'https://www.zhihu.com/',
+      link: 'https://www.zhihu.com/people/cpenei',
       icon: 'i-ri-zhihu-fill',
       color: '#666084',
     },
