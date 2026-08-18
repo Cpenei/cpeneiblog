@@ -11,6 +11,9 @@ importers:
       valaxy:
         specifier: 1.0.0-rc.5
         version: 1.0.0-rc.5(@babel/parser@7.29.8)(@nuxt/kit@3.21.11(magicast@0.5.4))(@types/markdown-it@14.1.2)(@types/node@26.2.0)(@vue/compiler-dom@3.5.41)(axios@1.19.0(debug@4.4.3))(eslint@10.8.1(jiti@2.7.0))(rolldown@1.2.4)(typescript@5.9.3)(vue-router@5.2.0(@vue/compiler-sfc@3.5.41)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3)))(rolldown@1.2.4)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(sass@1.102.0)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))(yaml@2.9.0)
+      valaxy-addon-giscus:
+        specifier: ^0.2.0
+        version: 0.2.0(valaxy@1.0.0-rc.5(@babel/parser@7.29.8)(@nuxt/kit@3.21.11(magicast@0.5.4))(@types/markdown-it@14.1.2)(@types/node@26.2.0)(@vue/compiler-dom@3.5.41)(axios@1.19.0(debug@4.4.3))(eslint@10.8.1(jiti@2.7.0))(rolldown@1.2.4)(typescript@5.9.3)(vue-router@5.2.0(@vue/compiler-sfc@3.5.41)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3)))(rolldown@1.2.4)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(sass@1.102.0)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3))
       valaxy-theme-yun:
         specifier: 1.0.0-rc.5
         version: 1.0.0-rc.5(magicast@0.5.4)(valaxy@1.0.0-rc.5(@babel/parser@7.29.8)(@nuxt/kit@3.21.11(magicast@0.5.4))(@types/markdown-it@14.1.2)(@types/node@26.2.0)(@vue/compiler-dom@3.5.41)(axios@1.19.0(debug@4.4.3))(eslint@10.8.1(jiti@2.7.0))(rolldown@1.2.4)(typescript@5.9.3)(vue-router@5.2.0(@vue/compiler-sfc@3.5.41)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3)))(rolldown@1.2.4)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(sass@1.102.0)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))(yaml@2.9.0))(vue-i18n@11.4.8(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))
@@ -416,6 +419,11 @@ packages:
   '@floating-ui/vue@1.1.11':
     resolution: {integrity: sha512-HzHKCNVxnGS35r9fCHBc3+uCnjw9IWIlCPL683cGgM9Kgj2BiAl8x1mS7vtvP6F9S/e/q4O6MApwSHj8hNLGfw==}
 
+  '@giscus/vue@3.1.1':
+    resolution: {integrity: sha512-xgsc93MibRQ0d1glBxN1BrEREHTIf3BPYs/3R+UZHNqawFFoWBV6iJ7uVCXMqoEKZdE2c78B3aKt5gfGqo8I5A==}
+    peerDependencies:
+      vue: '>=3.2.0'
+
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
     engines: {node: '>=18.18.0'}
@@ -564,6 +572,12 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@lit-labs/ssr-dom-shim@1.6.0':
+    resolution: {integrity: sha512-VHb0ALPMTlgKjM6yIxxoQNnpKyUKLD04VzeQdsiXkMqkvYlAHxq9glGLmgbb889/1GsohSOAjvQYoiBppXFqrQ==}
+
+  '@lit/reactive-element@2.1.2':
+    resolution: {integrity: sha512-pbCDiVMnne1lYUIaYNN5wrwQXDtHaYtg7YEFPeW+hws6U47WeFvISGUWekPGKWOP1ygrs0ef0o1VJMk1exos5A==}
 
   '@mdit-vue/plugin-component@3.0.2':
     resolution: {integrity: sha512-Fu53MajrZMOAjOIPGMTdTXgHLgGU9KwTqKtYc6WNYtFZNKw04euSfJ/zFg8eBY/2MlciVngkF7Gyc2IL7e8Bsw==}
@@ -2237,6 +2251,9 @@ packages:
     resolution: {integrity: sha512-r+mvuDjrjMpsdw46Kmeydb8bdHm7wOKw8wNBtTndkjbPjgAp5oUJUxRE76wZFknxIPokfWvep2qSXK37aXE6zg==}
     hasBin: true
 
+  giscus@1.6.0:
+    resolution: {integrity: sha512-Zrsi8r4t1LVW950keaWcsURuZUQwUaMKjvJgTCY125vkW6OiEBkatE7ScJDbpqKHdZwb///7FVC21SE3iFK3PQ==}
+
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -2597,6 +2614,15 @@ packages:
 
   linkify-it@5.0.2:
     resolution: {integrity: sha512-ONTm2jCMAVZjgQa/Fy1kScXsuOoF5NPTsoFBdE1KVIZ2vAh/r9+Bqo+0jINCBYnavTPQZz38QzFTme79ENoN3Q==}
+
+  lit-element@4.2.2:
+    resolution: {integrity: sha512-aFKhNToWxoyhkNDmWZwEva2SlQia+jfG0fjIWV//YeTaWrVnOxD89dPKfigCUspXFmjzOEUQpOkejH5Ly6sG0w==}
+
+  lit-html@3.3.3:
+    resolution: {integrity: sha512-el8M6jK2o3RXBnrSHX3ZKrsN8zEV63pSExTO1wYJz7QndGYZ8353e2a5PPX+qHe2aGayfnchQmkAojaWAREOIA==}
+
+  lit@3.3.3:
+    resolution: {integrity: sha512-fycuvZg/hkpozL00lm1pEJH5nN/lr9ZXd6mJI2HSN4+Bzc+LDNdEApJ6HFbPkdFNHLvOplIIuJvxkS4XUxqirw==}
 
   local-pkg@0.5.1:
     resolution: {integrity: sha512-9rrA30MRRP3gBD3HTGnC6cDFpaE1kVDWxWgqWJUN0RvDNAo+Nz/9GxB+nHOH0ifbVFy0hSA1V6vFDvnx54lTEQ==}
@@ -3518,6 +3544,12 @@ packages:
       vue: ^3.5.0
       vue-i18n: ^11.0.0
 
+  valaxy-addon-giscus@0.2.0:
+    resolution: {integrity: sha512-ZMIx3ouJq/jiZnt8sZx1MWm4d8CDwbka9qjS1nKDTSCkG1VbVYYqsz9rBCOWwVFdcHwDV9mzH2Dbtg466NS4yw==}
+    peerDependencies:
+      valaxy: '>=1.0.0-rc.0'
+      vue: ^3.5.0
+
   valaxy-theme-yun@1.0.0-rc.5:
     resolution: {integrity: sha512-TdhHpQi5RGbQ3PM2PXSFRZqOReNzTTxQTn79cPJnuoGVgz7zCbt9iFL8hhCqKmG4UGvx46cKPy+Wj3CaPvFLdw==}
 
@@ -4159,6 +4191,11 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
+  '@giscus/vue@3.1.1(vue@3.5.41(typescript@5.9.3))':
+    dependencies:
+      giscus: 1.6.0
+      vue: 3.5.41(typescript@5.9.3)
+
   '@humanfs/core@0.19.2':
     dependencies:
       '@humanfs/types': 0.15.0
@@ -4320,6 +4357,12 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.14
+
+  '@lit-labs/ssr-dom-shim@1.6.0': {}
+
+  '@lit/reactive-element@2.1.2':
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.6.0
 
   '@mdit-vue/plugin-component@3.0.2':
     dependencies:
@@ -4782,8 +4825,7 @@ snapshots:
     dependencies:
       undici-types: 8.3.0
 
-  '@types/trusted-types@2.0.7':
-    optional: true
+  '@types/trusted-types@2.0.7': {}
 
   '@types/unist@3.0.3': {}
 
@@ -6068,6 +6110,10 @@ snapshots:
   giget@3.3.1:
     optional: true
 
+  giscus@1.6.0:
+    dependencies:
+      lit: 3.3.3
+
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
@@ -6390,6 +6436,22 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
+  lit-element@4.2.2:
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.6.0
+      '@lit/reactive-element': 2.1.2
+      lit-html: 3.3.3
+
+  lit-html@3.3.3:
+    dependencies:
+      '@types/trusted-types': 2.0.7
+
+  lit@3.3.3:
+    dependencies:
+      '@lit/reactive-element': 2.1.2
+      lit-element: 4.2.2
+      lit-html: 3.3.3
+
   local-pkg@0.5.1:
     dependencies:
       mlly: 1.8.2
@@ -6440,7 +6502,7 @@ snapshots:
 
   magic-string-ast@1.0.2:
     dependencies:
-      magic-string: 0.30.21
+      magic-string: 0.30.17
 
   magic-string-ast@1.0.3:
     dependencies:
@@ -7410,6 +7472,12 @@ snapshots:
       vue: 3.5.41(typescript@5.9.3)
       vue-i18n: 11.4.8(vue@3.5.41(typescript@5.9.3))
 
+  valaxy-addon-giscus@0.2.0(valaxy@1.0.0-rc.5(@babel/parser@7.29.8)(@nuxt/kit@3.21.11(magicast@0.5.4))(@types/markdown-it@14.1.2)(@types/node@26.2.0)(@vue/compiler-dom@3.5.41)(axios@1.19.0(debug@4.4.3))(eslint@10.8.1(jiti@2.7.0))(rolldown@1.2.4)(typescript@5.9.3)(vue-router@5.2.0(@vue/compiler-sfc@3.5.41)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3)))(rolldown@1.2.4)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(sass@1.102.0)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)):
+    dependencies:
+      '@giscus/vue': 3.1.1(vue@3.5.41(typescript@5.9.3))
+      valaxy: 1.0.0-rc.5(@babel/parser@7.29.8)(@nuxt/kit@3.21.11(magicast@0.5.4))(@types/markdown-it@14.1.2)(@types/node@26.2.0)(@vue/compiler-dom@3.5.41)(axios@1.19.0(debug@4.4.3))(eslint@10.8.1(jiti@2.7.0))(rolldown@1.2.4)(typescript@5.9.3)(vue-router@5.2.0(@vue/compiler-sfc@3.5.41)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3)))(rolldown@1.2.4)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(sass@1.102.0)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))(yaml@2.9.0)
+      vue: 3.5.41(typescript@5.9.3)
+
   valaxy-theme-yun@1.0.0-rc.5(magicast@0.5.4)(valaxy@1.0.0-rc.5(@babel/parser@7.29.8)(@nuxt/kit@3.21.11(magicast@0.5.4))(@types/markdown-it@14.1.2)(@types/node@26.2.0)(@vue/compiler-dom@3.5.41)(axios@1.19.0(debug@4.4.3))(eslint@10.8.1(jiti@2.7.0))(rolldown@1.2.4)(typescript@5.9.3)(vue-router@5.2.0(@vue/compiler-sfc@3.5.41)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.41(typescript@5.9.3)))(rolldown@1.2.4)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0)(sass@1.102.0)(yaml@2.9.0))(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3))(yaml@2.9.0))(vue-i18n@11.4.8(vue@3.5.41(typescript@5.9.3)))(vue@3.5.41(typescript@5.9.3)):
     dependencies:
       '@ctrl/tinycolor': 4.2.0
@@ -7736,7 +7804,7 @@ snapshots:
     dependencies:
       ansi-styles: 4.0.0
       string-width: 4.2.0
-      strip-ansi: 6.0.1
+      strip-ansi: 6.0.0
 
   wrap-ansi@8.1.0:
     dependencies:

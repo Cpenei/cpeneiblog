@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { addonGiscus } from 'valaxy-addon-giscus'
 
 // add icons what you will need
 const safelist = [
@@ -63,5 +64,20 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+
+  siteConfig: {
+    comment: {
+      enable: true,
+    },
+  },
+
+  addons: [
+    addonGiscus({
+      repo: 'Cpenei/cpeneiblog',
+      repoId: 'R_kgDOT7Anrw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOT7Anr84DDnIP',
+    }),
+  ],
 })
 
