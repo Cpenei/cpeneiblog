@@ -4,6 +4,7 @@ export default defineSiteConfig({
   url: 'https://cpenei.github.io/cpeneiblog/',
   lang: 'zh-CN',
   title: 'Cp*enei_lab',
+  favicon: '/favicon.ico',
   subtitle: '优化情商可以更近理论值嘛/kel',
   author: {
     name: '层析析',
